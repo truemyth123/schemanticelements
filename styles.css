@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #FFD95A;
+    padding: 1rem 0.7rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 0;
+}
+
+nav {
+    background: linear-gradient(45deg, #35155D, #512B81);
+    padding: 1rem;
+    margin: 0;
+
+}
+
+a {
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.nava {
+    color: #141414;
+    text-decoration: none;
+    margin: 0;
+    font-size: 20px;
+
+    padding: 10px;
+    border: 1px solid rebeccapurple;
+    border-radius: 20px;
+    transition: 400ms;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: yellow;
+}
+
+.nava:hover {
+    border-radius: 0;
+    transition: 400ms;
+}
+
+aside{
+    width: 10rem;
+    background: linear-gradient(45deg, red, black);
+    height: 100vh;
+    text-align: center;
+
+}
+
+.left {
+    display: block;
+    text-decoration: none;
+    float: left;
+    color: yellow;
+    background-color: orange;
+    padding: 1rem;
+    border: px solid white;
+    
+    margin: 0px;
+}
+.al{
+    display: block;
+                text-decoration: none;
+                margin-top: 3rem;
+                color: yellow;
+                background-color: orange;
+                padding: 1rem;
+                border:1px solid white ;
+                border-radius: 20px;
+                margin:30px 5px;
+}
+.al:hover{
+    border-radius: 0px;
+    transform: scale(1.2);
+    transition: 400ms;
+}
+.ar:hover{
+    border-radius: 0px;
+    transform: scale(1.2);
+    transition: 400ms;
+}
+
+.ar{
+    display: block;
+    text-decoration: none;
+    margin-top: 3rem;
+    color: yellow;
+    background-color: orange;
+    padding: 1rem;
+    border:1px solid white ;
+    border-radius: 20px;
+    margin:30px 5px;
+}
+main{
+    
+}
+
+.right{
+    float: right;
+    color: yellow;
+    background-color: orange;
+    padding: 1rem;
+    border: px solid white;
+    display: block;
+    text-decoration: none;
+    margin: 0px;
+}
+footer{
+    grid-area: 'footer';
+    background-color: #141414;
+    color: aliceblue;
+}
+
